@@ -18,11 +18,11 @@ export function Banner() {
       </div>
       <div className="lg:flex">
         <div className="lg:w-1/2 mx-auto shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full">
-          <div className="lg:w-9/12 mx-auto mt-32 p-5 lg:p-0">
+          <div className="lg:w-9/12 mx-auto mt-40 p-5 lg:p-0">
             <Typography className="  text-[#00AF91] font-bold text-sm">
               Ultimate Savings Destination!
             </Typography>
-            <Typography className="text-[#263238] leading-tight text-[56px] font-medium">
+            <Typography className="text-[#263238] text-4xl leading-tight md:text-[56px] font-medium">
               Shop Smart, Save Big on Groceries!
             </Typography>
             <Typography className="mb-8 font-normal text-lg">

@@ -6,7 +6,7 @@ const DiscoverDeals = () => {
       <h2 className="text-[#00AF91] text-sm font-bold text-center">
         HOW IT WORKS
       </h2>
-      <p className="text-[#263238] text-[56px] text-center font-medium lg:w-4/12 mx-auto">
+      <p className="text-[#263238] text-4xl leading-tight md:text-[56px] text-center font-medium lg:w-4/12 mx-auto">
         Discover Deals in Just a Few Steps
       </p>
       <div className="lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
@@ -18,6 +18,7 @@ const DiscoverDeals = () => {
               viewBox="0 0 300 300"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="flex justify-center mx-auto md:mx-0"
             >
               <path
                 d="M272.555 202.743H161.605C159.579 202.743 157.982 201.146 157.982 199.12V37.5154C157.982 35.4892 159.579 33.8928 161.605 33.8928H272.555C274.581 33.8928 276.177 35.4892 276.177 37.5154V199.12C276.177 201.146 274.581 202.743 272.555 202.743ZM161.605 34.0156C159.701 34.077 158.166 35.612 158.166 37.5154V199.12C158.166 201.024 159.701 202.559 161.605 202.559H272.555C274.458 202.559 275.993 201.024 275.993 199.12V37.5154C275.993 35.612 274.458 34.077 272.555 34.077L161.605 34.0156Z"
@@ -415,7 +416,7 @@ const DiscoverDeals = () => {
             </svg>
           </div>
           <div className="w-11/12 mx-auto pt-5">
-            <h2 className="text-[#263238] text-[26px] font-semibold text-center w-9/12">
+            <h2 className="text-[#263238] text-[26px] font-semibold text-center md:w-9/12">
               Select Your Store
             </h2>
             <p className="text-center w-11/12 text-lg font-normal">
@@ -432,6 +433,7 @@ const DiscoverDeals = () => {
               viewBox="0 0 300 300"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="flex justify-center mx-auto md:mx-0"
             >
               <path
                 d="M310.94 138.266C309.796 112.445 299.238 87.8316 283.72 69.006C274.625 58.0668 263.813 48.5268 252.047 41.2128C239.899 33.6444 226.67 25.122 212.233 24.168C208.672 23.9772 205.046 24.2316 201.548 25.44C188.256 30.0192 215.286 43.884 218.784 45.9192C181.196 30.7188 142.273 15.264 101.76 18.126C93.9372 18.6984 85.86 20.034 79.1184 24.7404C72.3768 29.4468 67.3524 38.2872 68.6244 46.8096C69.7056 53.8692 74.5392 61.6284 70.3416 67.3524C69.1968 68.9424 67.416 69.96 65.7624 70.8504C56.9856 75.3024 47.5092 77.7828 39.2412 83.3796C26.4576 91.9656 18.0624 107.357 14.3736 123.448C10.7484 139.475 11.448 156.138 13.5468 172.292C17.5536 202.63 26.712 232.522 44.202 255.672C69.1332 288.744 108.82 304.708 148.188 306.298C195.824 308.206 246.768 288.553 276.914 245.941C281.43 239.581 285.5 232.649 286.963 224.826C288.426 217.067 286.772 208.226 281.43 203.329C279.967 201.994 278.123 200.594 278.186 198.496C278.314 195.57 281.621 194.552 284.165 193.853C300.764 189.337 309.732 168.031 310.877 149.142C311.089 145.496 311.11 141.87 310.94 138.266Z"
@@ -1666,7 +1668,7 @@ const DiscoverDeals = () => {
             </svg>
           </div>
           <div className="w-11/12 mx-auto pt-5">
-            <h2 className="text-[#263238] text-[26px] font-semibold text-center w-9/12">
+            <h2 className="text-[#263238] text-[26px] font-semibold text-center md:w-9/12">
               Browse Deals
             </h2>
             <p className="text-center w-11/12 text-lg font-normal">
@@ -1683,6 +1685,7 @@ const DiscoverDeals = () => {
               viewBox="0 0 300 300"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="flex justify-center mx-auto md:mx-0"
             >
               <path
                 d="M114.318 41.4508C114.318 41.4508 61.8648 68.162 35.7072 109.336C9.54957 150.51 11.6256 203.448 43.4576 242.754C75.2204 282.059 135.909 276.869 186.771 301.781C237.633 326.693 293.754 321.572 317.766 268.842C341.848 216.042 305.587 196.32 299.359 135.286C293.131 74.2516 238.117 -15.1548 114.318 41.4508Z"
@@ -1988,7 +1991,7 @@ const DiscoverDeals = () => {
             </svg>
           </div>
           <div className="w-11/12 mx-auto pt-5">
-            <h2 className="text-[#263238] text-[26px] font-semibold text-center w-9/12">
+            <h2 className="text-[#263238] text-[26px] font-semibold text-center md:w-9/12">
               Enjoy Your Savings
             </h2>
             <p className="text-center w-11/12 text-lg font-normal">
