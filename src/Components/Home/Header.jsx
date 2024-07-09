@@ -69,7 +69,7 @@ export function Header() {
   }, []);
 
   return (
-    <nav className="fixed top-0 bg-white mx-auto px-6 lg:px-20 py-3 shadow-md w-full">
+    <nav className="fixed top-0 z-50 bg-white mx-auto px-6 lg:px-20 py-3 shadow-md w-full">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography className=" cursor-pointer ">
           <svg

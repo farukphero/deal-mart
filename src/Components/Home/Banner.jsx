@@ -51,7 +51,7 @@ export function Banner() {
             </div>
             <div className="relative">
               <div className="border-b-2 border-b-[#BBD2BD] mt-20 " />
-              <div className="absolute -top-4 left-[27%]">
+              <div className="absolute -top-4 left-[16%] md:left-[27%]">
                 <div className="flex items-center gap-x-4 bg-white px-4">
                   <span className="text-[#263238] text-[20px] font-semibold">
                     Available in Canada{" "}
@@ -115,7 +115,7 @@ export function Banner() {
             alt="banner"
             className="mt-7 lg:mt-o h-full lg:h-[700px] w-full bg-gradient-to-b from-green-800 to-green-800/44"
           />
-          <div className="flex gap-x-5 absolute bottom-10 left-[25%]">
+          <div className="flex gap-x-5 absolute bottom-10 left-auto md:left-[25%]">
             <div>
               <svg
                 width="190"
