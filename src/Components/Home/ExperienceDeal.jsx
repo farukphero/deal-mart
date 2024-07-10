@@ -15,7 +15,7 @@ const ExperienceDeal = () => {
       <div className="lg:w-1/2 mx-auto shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full lg:h-[600px]">
         <div className="lg:w-9/12 mx-auto  p-5 lg:p-0">
           <div className="mt-10">
-            <div className=" ">
+            <div>
               <svg
                 width="94"
                 height="104"
