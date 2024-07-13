@@ -4,10 +4,17 @@ import image from "../../assets/images/9613928b7b69ce5e332ac078846af1d3.png";
 
 const Checkout = () => {
   return (
-    <div className="lg:flex mt-20 md:w-[88%] mx-auto">
-      <div className="lg:w-1/2 mx-auto shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full lg:h-[600px]">
-        <div className="lg:w-9/12 mx-auto  p-5 lg:p-0">
-          <div className="mt-10">
+    <div className="lg:flex mt-10 lg:mt-20 md:w-[88%] mx-auto">
+      <div className="lg:w-1/2 lg:mx-auto mx-8 lg:hidden">
+        <Image
+          src={image}
+          alt=""
+          className="mt-7 lg:mt-0 h-full lg:h-[600px] w-[600px]"
+        />
+      </div>
+      <div className="lg:w-1/2 lg:mx-auto mx-3 shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full lg:h-[600px]">
+        <div className="lg:w-9/12 mx-auto p-5 lg:p-0">
+          <div className="mt-5 lg:mt-10">
             <div className=" ">
               <svg
                 width="92"
@@ -15,7 +22,7 @@ const Checkout = () => {
                 viewBox="0 0 92 92"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex justify-center mx-auto md:mx-0"
+                 
               >
                 <path
                   d="M90.5625 25.8747C90.5625 25.8747 87.6875 38.8122 76.1875 38.8122H75.7131C76.0368 37.8887 76.1973 36.9158 76.1875 35.9372C76.82 34.7297 77.8838 32.8897 78.8181 31.021C79.4371 29.8186 79.9331 28.5567 80.2988 27.2547L80.5 27.3122C82.2722 26.6103 84.1457 26.1977 86.0488 26.0904C87.5487 25.9419 89.0552 25.8699 90.5625 25.8747Z"
@@ -196,7 +203,7 @@ const Checkout = () => {
               </svg>
 
               <div className="mt-5">
-                <h1 className="text-[#263238] text-4xl leading-tight md:text-[56px] font-medium flex justify-center md:justify-start items-center">
+                <h1 className="text-[#263238] text-[40px] leading-tight md:text-[56px] font-medium flex justify-center md:justify-start items-center">
                   Effortless Checkout with iDealMart
                 </h1>
                 <p className="font-normal">
@@ -209,7 +216,7 @@ const Checkout = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2 mx-auto">
+      <div className="lg:w-1/2 mx-auto hidden lg:flex">
         <Image
           src={image}
           alt=""

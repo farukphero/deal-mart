@@ -6,15 +6,15 @@ const DiscoverDeals = () => {
       <h2 className="text-[#00AF91] text-sm font-bold text-center">
         HOW IT WORKS
       </h2>
-      <p className="text-[#263238] text-4xl leading-tight md:text-[56px] text-center font-medium lg:w-4/12 mx-auto">
+      <p className="text-[#263238] text-[40px] leading-tight md:text-[56px] text-center font-medium w-11/12 lg:w-4/12 mx-auto">
         Discover Deals in Just a Few Steps
       </p>
-      <div className="lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+      <div className="w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
         <div>
           <div>
             <svg
-              width="300"
-              height="300"
+              width="307"
+              height="307"
               viewBox="0 0 300 300"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -415,11 +415,11 @@ const DiscoverDeals = () => {
               />
             </svg>
           </div>
-          <div className="w-11/12 mx-auto pt-5">
-            <h2 className="text-[#263238] text-[26px] font-semibold text-center md:w-9/12">
+          <div className="w-10/12 lg:w-11/12 mx-auto pt-5">
+            <h2 className="text-[#263238] text-[24px] lg:text-[26px] font-semibold text-center">
               Select Your Store
             </h2>
-            <p className="text-center w-11/12 text-lg font-normal">
+            <p className="text-center   text-[16px] lg:text-lg font-normal">
               Pick your preferred store from our list of trusted partners to
               view their specific deals and products.
             </p>
@@ -428,8 +428,8 @@ const DiscoverDeals = () => {
         <div>
           <div>
             <svg
-              width="300"
-              height="300"
+              width="307"
+              height="307"
               viewBox="0 0 300 300"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -1667,11 +1667,11 @@ const DiscoverDeals = () => {
               />
             </svg>
           </div>
-          <div className="w-11/12 mx-auto pt-5">
-            <h2 className="text-[#263238] text-[26px] font-semibold text-center md:w-9/12">
+          <div className="w-10/12 lg:w-11/12 mx-auto pt-5">
+            <h2 className="text-[#263238] text-[24px] lg:text-[26px] font-semibold text-center">
               Browse Deals
             </h2>
-            <p className="text-center w-11/12 text-lg font-normal">
+            <p className="text-center   text-[16px] lg:text-lg font-normal">
               Checkout list of deals available for preferred store and choose
               what best for you.
             </p>
@@ -1680,8 +1680,8 @@ const DiscoverDeals = () => {
         <div>
           <div>
             <svg
-              width="300"
-              height="300"
+              width="307"
+              height="307"
               viewBox="0 0 300 300"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -1990,11 +1990,11 @@ const DiscoverDeals = () => {
               />
             </svg>
           </div>
-          <div className="w-11/12 mx-auto pt-5">
-            <h2 className="text-[#263238] text-[26px] font-semibold text-center md:w-9/12">
+          <div className="w-10/12 lg:w-11/12 mx-auto pt-5">
+            <h2 className="text-[#263238] text-[24px] lg:text-[26px] font-semibold text-center">
               Enjoy Your Savings
             </h2>
-            <p className="text-center w-11/12 text-lg font-normal">
+            <p className="text-center   text-[16px] lg:text-lg font-normal">
               Earn rewards and loyalty points with every purchase to save even
               more in the future.
             </p>

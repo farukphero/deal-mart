@@ -4,7 +4,6 @@ import {
   CardHeader,
   CardBody,
   Typography,
-  Avatar,
   CardFooter,
 } from "@material-tailwind/react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -94,7 +93,11 @@ const testimonialData = [
 
 export function Testimonial() {
   return (
-    <section className="md:w-[88%] mx-auto mt-20">
+    <section className="md:w-[88%] lg:mx-auto mx-8 mt-20">
+      <div>
+        <h2 className=" text-center lg:text-start text-[#00AF91] font-bold text-sm">Testimonials</h2>
+        <p className="text-start text-[#263238] text-[39px] leading-tight md:text-[56px] font-medium">Praise from our <br className="hidden lg:flex"/> Valued Customers</p>
+      </div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

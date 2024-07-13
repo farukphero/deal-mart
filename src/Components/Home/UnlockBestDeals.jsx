@@ -4,7 +4,7 @@ import React from "react";
 
 const UnlockBestDeals = () => {
   return (
-    <div className="md:w-[88%] mx-auto bg-[#EBF5EC] mt-20 rounded-xl">
+    <div className="md:w-[88%] lg:mx-auto mx-8 bg-[#EBF5EC] mt-20 rounded-xl">
       <div className="lg:flex justify-between p-5">
         <div className=" md:w-[440px] mx-auto">
           <div>
@@ -14,7 +14,7 @@ const UnlockBestDeals = () => {
               viewBox="0 0 72 72"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="flex justify-center mx-auto md:mx-0"
+               
             >
               <g clip-path="url(#clip0_31_2759)">
                 <path
@@ -73,7 +73,7 @@ const UnlockBestDeals = () => {
             </h1>
           </div>
           <div className="md:flex gap-x-3 mt-5">
-            <Button className="bg-[#00AF91] flex justify-center items-center gap-x-1">
+            <Button className="bg-[#00AF91] flex justify-center items-center gap-x-1 w-[220px] lg:w-full">
               {" "}
               <svg
                 width="16"
@@ -87,12 +87,12 @@ const UnlockBestDeals = () => {
                   fill="white"
                 />
               </svg>
-              <span className="text-[16px] font-medium lowercase">
+              <span className="text-[15px] lg:text-[16px] font-medium lowercase">
                 <span className=" uppercase">D</span>ownload for i
                 <span className=" uppercase">OS</span>
               </span>
             </Button>
-            <Button className="bg-[#00AF91] flex justify-center items-center gap-x-1 mt-3 md:mt-0">
+            <Button className="bg-[#00AF91] flex justify-center text-nowrap items-center gap-x-1 mt-3 md:mt-0 w-[220px] lg:w-full ">
               <svg
                 width="22"
                 height="13"
@@ -106,8 +106,8 @@ const UnlockBestDeals = () => {
                 />
               </svg>
 
-              <span className="text-[16px] font-medium lowercase">
-                <span className=" uppercase">D</span>ownload for{" "}
+              <span className="text-[15px] lg:text-[16px] font-medium lowercase text-white">
+                <span className=" uppercase ">D</span>ownload for{" "}
                 <span className=" uppercase">A</span>ndroid
               </span>
             </Button>

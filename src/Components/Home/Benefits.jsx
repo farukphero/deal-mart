@@ -6,23 +6,23 @@ import image from "../../assets/images/benefits.jpg";
 
 const Benefits = () => {
   return (
-    <div className="lg:flex mt-20">
+    <div className="lg:flex mt-20 md:w-[88%] mx-auto">
       <div className="lg:w-1/2 mx-auto shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full">
-        <div className="lg:w-9/12 mx-auto  p-5 lg:p-0">
-          <Typography className="  text-[#00AF91] font-bold text-sm">
+        <div>
+          <Typography className=" text-center lg:text-start text-[#00AF91] font-bold text-sm">
             Key Benefits
           </Typography>
-          <Typography className="text-[#263238] text-4xl leading-tight md:text-[48px] font-medium">
-            Your Savings, Our Priority
+          <Typography className="text-center lg:text-start text-[#263238] text-[40px] leading-tight md:text-[48px] font-medium">
+            Your Savings,<br className="md:hidden"/> Our Priority
           </Typography>
-          <Typography className="mb-8 mt-3 font-normal text-lg">
+          <Typography className="lg:w-11/12 hidden lg:flex mb-8 mt-3 font-normal text-lg">
             Start your savings journey today with our exclusive offers,
-            easy-to-use app, and trusted stores.
+            easy-to-use app,  and trusted stores.
           </Typography>
 
           <div className="relative">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 md:gap-y-10 lg:gap-y-20 mt-10">
-              <div className="md:w-[14rem]">
+              <div className="w-[262px] lg:w-[16rem] mx-auto lg:mx-0">
                 <svg
                   width="104"
                   height="104"
@@ -51,87 +51,17 @@ const Benefits = () => {
                 </svg>
 
                 <div className="mt-5">
-                  <h1 className="text-[#263238] text-[24px] font-medium flex justify-center md:justify-start items-center">
+                  <h1 className="text-[#263238] text-[26px] lg:text-[24px] font-medium flex justify-center md:justify-start items-center">
                     Handpicked Deals
                   </h1>
-                  <p className="font-normal">
+                  <p className="font-normal text-lg lg:text-base text-center lg:text-start">
                     Carefully selected offers to ensure you get the best value.
                   </p>
                 </div>
               </div>
 
-              <div>
-                <svg
-                  width="104"
-                  height="104"
-                  viewBox="0 0 104 104"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="flex justify-center mx-auto md:mx-0"
-                >
-                  <g clip-path="url(#clip0_28_2122)">
-                    <path
-                      d="M103.769 97.6926L90.8171 65.4997C90.581 64.9075 90.1722 64.4 89.644 64.0431C89.1157 63.6862 88.4923 63.4964 87.8547 63.4983H14.1084C13.441 63.4982 12.7903 63.7072 12.2478 64.096C11.7054 64.4849 11.2985 65.0339 11.0843 65.6661L0.168529 97.8587C0.00552989 98.3392 -0.0406238 98.8516 0.0338927 99.3535C0.108409 99.8553 0.30145 100.332 0.59702 100.745C0.89259 101.157 1.28218 101.493 1.7335 101.725C2.18482 101.957 2.68488 102.077 3.19225 102.077H100.806C101.329 102.077 101.843 101.949 102.304 101.704C102.766 101.459 103.16 101.105 103.452 100.672C103.745 100.239 103.926 99.7411 103.982 99.2216C104.037 98.7022 103.964 98.1772 103.769 97.6926Z"
-                      fill="#78C68F"
-                    />
-                    <path
-                      d="M103.769 97.6925L95.0872 76.1125C92.2016 77.1743 72.6274 83.3003 72.6274 83.3003C72.6274 83.3003 83.2915 99.1171 85.2494 102.077H100.806C101.329 102.077 101.843 101.949 102.304 101.704C102.766 101.459 103.16 101.105 103.452 100.672C103.745 100.239 103.926 99.741 103.982 99.2216C104.037 98.7022 103.964 98.1772 103.769 97.6925Z"
-                      fill="#59DBA3"
-                    />
-                    <path
-                      d="M40.8039 93.9835L19.766 63.4983H14.1084C13.441 63.4981 12.7903 63.7072 12.2479 64.096C11.7054 64.4849 11.2985 65.0339 11.0843 65.666L0.168529 97.8587C0.00552989 98.3392 -0.0406239 98.8516 0.0338927 99.3534C0.108409 99.8553 0.30145 100.332 0.59702 100.745C0.89259 101.157 1.28218 101.493 1.7335 101.725C2.18482 101.957 2.68488 102.077 3.19225 102.077H14.6993L40.8039 93.9835Z"
-                      fill="#59DBA3"
-                    />
-                    <path
-                      d="M27.9546 50.0737C33.2478 59.9551 41.5639 68.9454 48.9447 76.597L48.9963 76.6486C49.3556 76.9977 50.4374 78.0483 51.9737 78.0483H52.0253C53.5611 78.0483 54.6431 76.9975 55.0027 76.6486L55.0541 76.597C62.4342 68.9454 70.751 59.9551 76.0442 50.0737C79.0232 44.5128 80.7736 39.1143 81.2472 34.0281C81.8144 28.1516 80.6169 22.2394 77.8075 17.0468L77.7988 17.0308C72.8251 7.87592 62.9522 2.08706 52.033 1.92334H51.9995H51.966C41.0468 2.08706 31.1737 7.87592 26.1914 17.0468C23.3819 22.2393 22.1843 28.1515 22.7517 34.0281C23.2252 39.1143 24.9755 44.5128 27.9546 50.0737Z"
-                      fill="#E03E36"
-                    />
-                    <path
-                      d="M51.9999 46.8037C60.6762 46.8037 67.735 39.8269 67.735 31.2512C67.735 22.6755 60.6758 15.6987 51.9999 15.6987C43.3241 15.6987 36.2646 22.6755 36.2646 31.2512C36.2646 39.8269 43.323 46.8037 51.9999 46.8037Z"
-                      fill="#EFEAEA"
-                    />
-                    <path
-                      d="M27.955 50.0737C33.2482 59.9551 41.5644 68.9454 48.9451 76.597L48.9967 76.6486C49.3563 76.9977 50.4379 78.0483 51.9741 78.0483H52.0257C53.5618 78.0483 54.6436 76.9975 55.0031 76.6486L55.0547 76.597C62.4347 68.9454 70.7516 59.9551 76.0448 50.0737C79.0239 44.5128 80.7742 39.1143 81.2477 34.0281C81.815 28.1515 80.6174 22.2393 77.808 17.0468L77.7994 17.0308C72.8255 7.87592 62.9526 2.08706 52.0334 1.92334H51.9999H51.9664C41.0472 2.08706 31.1743 7.87592 26.1919 17.0468C23.3824 22.2393 22.1848 28.1515 22.7522 34.0281C23.2256 39.1143 24.9762 44.5128 27.955 50.0737Z"
-                      fill="url(#paint0_linear_28_2122)"
-                    />
-                    <path
-                      d="M52 46.8037C60.6765 46.8037 67.735 39.8269 67.735 31.2512C67.735 22.6755 60.6765 15.6987 52 15.6987C43.3235 15.6987 36.2649 22.6755 36.2649 31.2512C36.2649 39.8269 43.3235 46.8037 52 46.8037Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M95.6907 77.613L94.0204 73.4608L42.4043 90.9575L22.5708 63.4983H17.0582L37.9762 92.4586L9.60083 102.077H23.521L71.0768 85.9568L82.7374 102.077H88.2529L75.5062 84.4553L95.6907 77.613Z"
-                      fill="#F1E5B5"
-                    />
-                  </g>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_28_2122"
-                      x1="26.5967"
-                      y1="19.3761"
-                      x2="74.7622"
-                      y2="67.42"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#FF9B8C" />
-                      <stop offset="1" stop-color="#FD4D86" />
-                    </linearGradient>
-                    <clipPath id="clip0_28_2122">
-                      <rect width="104" height="104" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                <div className="mt-5">
-                  <h1 className="text-[#263238] text-[24px] font-medium flex justify-center md:justify-start items-center">
-                    Easy Navigation
-                  </h1>
-                  <p className="font-normal">
-                    User-friendly app design to make your shopping experience
-                    seamless.
-                  </p>
-                </div>
-              </div>
-              <div className="md:w-[14rem]">
+              
+              <div  className="w-[288px] lg:w-[16rem] mx-auto lg:mx-0">
                 <svg
                   width="104"
                   height="104"
@@ -220,15 +150,86 @@ const Benefits = () => {
                 </svg>
 
                 <div className="mt-5">
-                  <h1 className="text-[#263238] text-[24px] font-medium flex justify-center md:justify-start items-center">
+                  <h1 className="text-[#263238]  text-[26px] lg:text-[24px] font-medium flex justify-center md:justify-start items-center">
                     Trusted Stores
                   </h1>
-                  <p className="font-normal">
+                  <p className="font-normal text-lg lg:text-base text-center lg:text-start">
                     Only the best stores with the highest quality products.
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="w-[310px] lg:w-[16rem] mx-auto lg:mx-0">
+                <svg
+                  width="104"
+                  height="104"
+                  viewBox="0 0 104 104"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="flex justify-center mx-auto md:mx-0"
+                >
+                  <g clip-path="url(#clip0_28_2122)">
+                    <path
+                      d="M103.769 97.6926L90.8171 65.4997C90.581 64.9075 90.1722 64.4 89.644 64.0431C89.1157 63.6862 88.4923 63.4964 87.8547 63.4983H14.1084C13.441 63.4982 12.7903 63.7072 12.2478 64.096C11.7054 64.4849 11.2985 65.0339 11.0843 65.6661L0.168529 97.8587C0.00552989 98.3392 -0.0406238 98.8516 0.0338927 99.3535C0.108409 99.8553 0.30145 100.332 0.59702 100.745C0.89259 101.157 1.28218 101.493 1.7335 101.725C2.18482 101.957 2.68488 102.077 3.19225 102.077H100.806C101.329 102.077 101.843 101.949 102.304 101.704C102.766 101.459 103.16 101.105 103.452 100.672C103.745 100.239 103.926 99.7411 103.982 99.2216C104.037 98.7022 103.964 98.1772 103.769 97.6926Z"
+                      fill="#78C68F"
+                    />
+                    <path
+                      d="M103.769 97.6925L95.0872 76.1125C92.2016 77.1743 72.6274 83.3003 72.6274 83.3003C72.6274 83.3003 83.2915 99.1171 85.2494 102.077H100.806C101.329 102.077 101.843 101.949 102.304 101.704C102.766 101.459 103.16 101.105 103.452 100.672C103.745 100.239 103.926 99.741 103.982 99.2216C104.037 98.7022 103.964 98.1772 103.769 97.6925Z"
+                      fill="#59DBA3"
+                    />
+                    <path
+                      d="M40.8039 93.9835L19.766 63.4983H14.1084C13.441 63.4981 12.7903 63.7072 12.2479 64.096C11.7054 64.4849 11.2985 65.0339 11.0843 65.666L0.168529 97.8587C0.00552989 98.3392 -0.0406239 98.8516 0.0338927 99.3534C0.108409 99.8553 0.30145 100.332 0.59702 100.745C0.89259 101.157 1.28218 101.493 1.7335 101.725C2.18482 101.957 2.68488 102.077 3.19225 102.077H14.6993L40.8039 93.9835Z"
+                      fill="#59DBA3"
+                    />
+                    <path
+                      d="M27.9546 50.0737C33.2478 59.9551 41.5639 68.9454 48.9447 76.597L48.9963 76.6486C49.3556 76.9977 50.4374 78.0483 51.9737 78.0483H52.0253C53.5611 78.0483 54.6431 76.9975 55.0027 76.6486L55.0541 76.597C62.4342 68.9454 70.751 59.9551 76.0442 50.0737C79.0232 44.5128 80.7736 39.1143 81.2472 34.0281C81.8144 28.1516 80.6169 22.2394 77.8075 17.0468L77.7988 17.0308C72.8251 7.87592 62.9522 2.08706 52.033 1.92334H51.9995H51.966C41.0468 2.08706 31.1737 7.87592 26.1914 17.0468C23.3819 22.2393 22.1843 28.1515 22.7517 34.0281C23.2252 39.1143 24.9755 44.5128 27.9546 50.0737Z"
+                      fill="#E03E36"
+                    />
+                    <path
+                      d="M51.9999 46.8037C60.6762 46.8037 67.735 39.8269 67.735 31.2512C67.735 22.6755 60.6758 15.6987 51.9999 15.6987C43.3241 15.6987 36.2646 22.6755 36.2646 31.2512C36.2646 39.8269 43.323 46.8037 51.9999 46.8037Z"
+                      fill="#EFEAEA"
+                    />
+                    <path
+                      d="M27.955 50.0737C33.2482 59.9551 41.5644 68.9454 48.9451 76.597L48.9967 76.6486C49.3563 76.9977 50.4379 78.0483 51.9741 78.0483H52.0257C53.5618 78.0483 54.6436 76.9975 55.0031 76.6486L55.0547 76.597C62.4347 68.9454 70.7516 59.9551 76.0448 50.0737C79.0239 44.5128 80.7742 39.1143 81.2477 34.0281C81.815 28.1515 80.6174 22.2393 77.808 17.0468L77.7994 17.0308C72.8255 7.87592 62.9526 2.08706 52.0334 1.92334H51.9999H51.9664C41.0472 2.08706 31.1743 7.87592 26.1919 17.0468C23.3824 22.2393 22.1848 28.1515 22.7522 34.0281C23.2256 39.1143 24.9762 44.5128 27.955 50.0737Z"
+                      fill="url(#paint0_linear_28_2122)"
+                    />
+                    <path
+                      d="M52 46.8037C60.6765 46.8037 67.735 39.8269 67.735 31.2512C67.735 22.6755 60.6765 15.6987 52 15.6987C43.3235 15.6987 36.2649 22.6755 36.2649 31.2512C36.2649 39.8269 43.3235 46.8037 52 46.8037Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M95.6907 77.613L94.0204 73.4608L42.4043 90.9575L22.5708 63.4983H17.0582L37.9762 92.4586L9.60083 102.077H23.521L71.0768 85.9568L82.7374 102.077H88.2529L75.5062 84.4553L95.6907 77.613Z"
+                      fill="#F1E5B5"
+                    />
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_28_2122"
+                      x1="26.5967"
+                      y1="19.3761"
+                      x2="74.7622"
+                      y2="67.42"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#FF9B8C" />
+                      <stop offset="1" stop-color="#FD4D86" />
+                    </linearGradient>
+                    <clipPath id="clip0_28_2122">
+                      <rect width="104" height="104" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <div className="mt-5">
+                  <h1 className="text-[#263238] text-[26px] lg:text-[24px] font-medium flex justify-center md:justify-start items-center">
+                    Easy Navigation
+                  </h1>
+                  <p className="font-normal text-lg lg:text-base text-center lg:text-start">
+                    User-friendly app design to make your shopping experience
+                    seamless.
+                  </p>
+                </div>
+              </div>
+              <div className="w-[338px] lg:w-[16rem] mx-auto lg:mx-0">
                 <svg
                   width="104"
                   height="104"
@@ -287,10 +288,10 @@ const Benefits = () => {
                 </svg>
 
                 <div className="mt-5">
-                  <h1 className="text-[#263238] text-[24px] font-medium flex justify-center md:justify-start items-center">
+                  <h1 className="text-[#263238] text-[26px] lg:text-[24px] font-medium flex justify-center md:justify-start items-center">
                     Quality Assurance
                   </h1>
-                  <p className="font-normal">
+                  <p className="font-normal text-lg lg:text-base text-center lg:text-start">
                     We partner with only the most trusted stores to ensure
                     top-quality products.
                   </p>
@@ -304,7 +305,7 @@ const Benefits = () => {
         <Image
           src={image}
           alt="banner"
-          className="mt-7 lg:mt-o h-full lg:h-[700px] w-full  "
+          className="mt-7 lg:mt-o h-full lg:h-[700px] w-full  hidden lg:flex"
         />
       </div>
     </div>

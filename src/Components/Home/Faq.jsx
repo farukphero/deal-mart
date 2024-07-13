@@ -16,14 +16,14 @@ const Item = ({ title, children }) => {
         className="flex items-center justify-between w-full p-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="text-lg font-medium">{title}</p>
+        <p className="text-[16px] lg:text-lg font-medium text-start">{title}</p>
 
         {isOpen ? <FaMinus /> : <FaPlus />}
       </button>
       {isOpen && (
         <div className="p-4 pt-0 ">
           <p
-            className="text-[#263238] text-[16px] font-normal"
+            className="text-[#263238] text-sm lg:text-[16px] font-normal"
           >
             {children}
           </p>
@@ -68,8 +68,8 @@ const showFaq = [
 
 export const FaqItems = () => {
   return (
-    <section className="md:w-[88%] mx-auto lg:flex justify-between mt-20 px-5 lg:px-0">
-      <div className="lg:w-1/2">
+    <section className="md:w-[88%] lg:mx-auto mx-5 lg:flex justify-between mt-20  ">
+      <div className="lg:w-1/2 mx-3 lg:mx-0">
         <h1 className="text-[#00AF91] text-sm font-bold uppercase">
           Have questions?
         </h1>
@@ -87,7 +87,7 @@ export const FaqItems = () => {
         </Button>
       </div>
 
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2 mt-8">
         <div className=" ">
           <div className="space-y-4">
             {showFaq?.map((faq, index) => (

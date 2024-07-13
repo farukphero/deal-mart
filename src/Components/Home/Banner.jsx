@@ -18,19 +18,19 @@ export function Banner() {
       </div>
       <div className="lg:flex">
         <div className="lg:w-1/2 mx-auto shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full">
-          <div className="lg:w-9/12 mx-auto mt-40 p-5 lg:p-0">
-            <Typography className="  text-[#00AF91] font-bold text-sm">
+          <div className="w-10/12 lg:w-9/12 mx-auto mt-36 lg:mt-40">
+            <Typography className=" text-center md:text-start text-[#00AF91] font-bold text-sm pb-3">
               Ultimate Savings Destination!
             </Typography>
-            <Typography className="text-[#263238] text-4xl leading-tight md:text-[56px] font-medium">
+            <Typography className="text-[#263238] text-[40px] leading-tight md:text-[56px] font-medium">
               Shop Smart, Save Big on Groceries!
             </Typography>
-            <Typography className="mb-8 font-normal text-lg">
+            <Typography className="mb-8 mt-4 lg:mt-0 font-normal text-center lg:text-start  text-[20px]">
               Start your savings journey today with our exclusive offers,
               easy-to-use app, and trusted stores.
             </Typography>
-            <div className="flex gap-x-4">
-              <Button className="bg-[#00AF91] flex justify-center items-center gap-x-2 w-[185px]">
+            <div className="lg:flex gap-x-4">
+              <Button className="bg-[#00AF91] flex justify-center items-center gap-x-2 w-[185px] mx-auto lg:mx-0">
                 {" "}
                 <MdOutlineFileDownload className="h-[18px] w-[18px]" />
                 <span className="text-[16px] font-medium lowercase">
@@ -39,7 +39,7 @@ export function Banner() {
               </Button>
               <Button
                 variant="outlined"
-                className="flex justify-center items-center gap-x-2 w-[190px]"
+                className="flex justify-center items-center gap-x-2 w-[190px] mt-2 lg:mt-0 mx-auto lg:mx-0"
               >
                 {" "}
                 <span className="text-[16px] font-medium lowercase">
@@ -68,9 +68,9 @@ export function Banner() {
                   <Image
                     src={toronto}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Toronto
                   </h1>
                 </div>
@@ -79,9 +79,9 @@ export function Banner() {
                   <Image
                     src={montreal}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Montreal
                   </h1>
                 </div>
@@ -89,9 +89,9 @@ export function Banner() {
                   <Image
                     src={vancouver}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Vancouver
                   </h1>
                 </div>
@@ -99,9 +99,9 @@ export function Banner() {
                   <Image
                     src={edmonton}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Edmonton
                   </h1>
                 </div>
@@ -115,7 +115,7 @@ export function Banner() {
             alt="banner"
             className="mt-7 lg:mt-o h-full lg:h-[700px] w-full bg-gradient-to-b from-green-800 to-green-800/44"
           />
-          <div className="flex gap-x-5 absolute bottom-10 left-auto md:left-[25%]">
+          <div className="flex gap-x-5 justify-center absolute bottom-10  w-full mx-auto">
             <div>
               <svg
                 width="190"
@@ -123,6 +123,7 @@ export function Banner() {
                 viewBox="0 0 190 55"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="flex justify-center mx-auto"
               >
                 <path
                   d="M182.963 55H7.03704C3.16843 55 0 51.9045 0 48.125V6.875C0 3.09547 3.16843 5.44632e-07 7.03704 5.44632e-07H182.963C186.832 5.44632e-07 190 3.09547 190 6.875V48.125C190 51.9045 186.832 55 182.963 55Z"
@@ -265,6 +266,7 @@ export function Banner() {
                 viewBox="0 0 190 55"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="flex justify-center mx-auto"
               >
                 <path
                   d="M188.944 48.6571C188.944 51.5881 186.525 53.9622 183.534 53.9622H6.47298C3.48267 53.9622 1.05542 51.5881 1.05542 48.6571V6.34984C1.05542 3.42021 3.48267 1.03772 6.47298 1.03772H183.532C186.525 1.03772 188.943 3.42021 188.943 6.34984L188.944 48.6571Z"
